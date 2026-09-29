@@ -1,0 +1,55 @@
+# ── Secrets / personal config (NEVER commit) ────────────
+secrets_local.py
+**/secrets_local.py
+config_local.py
+**/config_local.py
+*.pickle
+token.pickle
+credentials.json
+.openai_key
+.env
+
+# ── Python envs / caches ────────────────────────────────
+venv/
+**/venv/
+__pycache__/
+**/__pycache__/
+*.pyc
+*.pyo
+
+# ── Runtime state / data (machine-specific) ─────────────
+*.log
+history.json
+conversation_history.json
+reminders.json
+tasks.json
+reports/
+**/reports/
+data/*.json
+database/*.db
+data/*.db
+data/*.db-*
+schwab_api/token.json
+*.plist.py39.bak
+
+# ── OS junk ─────────────────────────────────────────────
+.DS_Store
+
+# ── added 2026-09-28: machine-specific, sensitive, or scratch ──
+venv*/
+**/venv*/
+ops/*.sh
+ops/*.plist
+*.plist
+data/
+logs/
+*.bak
+*.bak-*
+*.sh.bak
+apply_*.txt
+fix_*.txt
+add_*.txt
+trend_*.txt
+commit_claudio.txt
+*_out.txt
+memo.txt
